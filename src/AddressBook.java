@@ -13,6 +13,7 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         buddyList.remove(buddy);
     }
+    //git pull check
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("abdul", "kanata", "613");
