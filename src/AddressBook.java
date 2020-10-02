@@ -14,6 +14,9 @@ public class AddressBook {
         buddyList.remove(buddy);
     }
     //git pull check
+    public void printHello(){
+        System.out.print("Hello World!");
+    }
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("abdul", "kanata", "613");
