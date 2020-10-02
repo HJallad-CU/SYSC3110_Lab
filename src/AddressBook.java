@@ -11,7 +11,7 @@ public class AddressBook {
     }
 
     public void removeBuddy(BuddyInfo buddy){
-        buddyList.add(buddy);
+        buddyList.remove(buddy);
     }
 
     public static void main(String[] args) {
